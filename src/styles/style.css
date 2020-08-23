@@ -1,0 +1,212 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body #main {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #main .notizie {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  -webkit-box-shadow: 0px 10px 5px #130c3d;
+          box-shadow: 0px 10px 5px #130c3d;
+  text-align: center;
+  background-image: url("/assets/img/news.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
+body #main .notizie button {
+  position: relative;
+  background-color: #0038BA;
+  color: white;
+  margin-top: 170px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+  padding: 4px;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+body #main .notizie button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+body #main .cronaca {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  -webkit-box-shadow: 0px 10px 5px #130c3d;
+          box-shadow: 0px 10px 5px #130c3d;
+  text-align: center;
+  background-image: url("/assets/img/crime.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
+body #main .cronaca button {
+  position: relative;
+  background-color: #0038BA;
+  color: white;
+  margin-top: 170px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+  padding: 4px;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+body #main .cronaca button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+body #main .sport {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  -webkit-box-shadow: 0px 10px 5px #130c3d;
+          box-shadow: 0px 10px 5px #130c3d;
+  text-align: center;
+  background-image: url("/assets/img/sport.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 235px;
+}
+
+body #main .sport button {
+  position: relative;
+  background-color: #0038BA;
+  color: white;
+  margin-top: 170px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+  padding: 4px;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+body #main .sport button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+body #main .estero {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  -webkit-box-shadow: 0px 10px 5px #130c3d;
+          box-shadow: 0px 10px 5px #130c3d;
+  text-align: center;
+  background-image: url("/assets/img/estero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 310px;
+}
+
+body #main .estero button {
+  position: relative;
+  background-color: #0038BA;
+  color: white;
+  margin-top: 170px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+  padding: 4px;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+body #main .estero button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+body #main .gossip {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+  color: black;
+  -webkit-box-shadow: 0px 10px 5px #130c3d;
+          box-shadow: 0px 10px 5px #130c3d;
+  text-align: center;
+  background-image: url("/assets/img/gossip.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 280px;
+}
+
+body #main .gossip button {
+  position: relative;
+  background-color: #0038BA;
+  color: white;
+  margin-top: 170px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid white;
+  padding: 4px;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+body #main .gossip button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

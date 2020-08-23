@@ -1,0 +1,115 @@
+$colors:(
+    primary: #0038BA,
+    basic: white,
+    night: black,
+);
+
+@function color ($color-name){
+    @return map-get($colors,$color-name)
+};
+
+html,
+body {
+height: 100%;
+padding: 0;
+margin: 0;
+};
+
+@mixin list($padding, $margin){
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: $padding;
+    margin: $margin;
+    width: 300px;
+    height: 200px;
+    color: color(night);
+    box-shadow: 0px 10px 5px #130c3d;
+    text-align: center;
+};
+@mixin img($back,$bis) {
+    background-image:$back;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $bis;   
+};
+@mixin button {
+    position: relative;
+    background-color: color(primary);
+    color: color(basic);
+    margin-top:170px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid white;
+    padding: 4px;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+
+};
+body{
+
+#main{
+margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .notizie{
+        @include list(10px, 30px);
+        @include img(url("/assets/img/news.jpg"), 250px);
+        button{
+           @include button();
+           &:hover{
+            transform: scale(1.1, 1.1);
+            cursor: pointer;
+        };
+        };
+    };
+    .cronaca{
+        @include list(10px,30px);
+        @include img(url("/assets/img/crime.jpg"),250px);
+        button{
+            @include button();
+            &:hover{
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+            };
+         };
+    };
+    .sport{
+        @include list(10px,30px);
+        @include img(url("/assets/img/sport.jpg"),235px);
+        button{
+            @include button();
+            &:hover{
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+            };
+         };
+    };
+    .estero{
+        @include list(10px,30px);
+        @include img(url("/assets/img/estero.jpg"),310px);
+        button{
+            @include button();
+            &:hover{
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+            };
+         };
+    };
+    .gossip{
+        @include list(10px,30px);
+        @include img(url("/assets/img/gossip.jpg"),280px);
+        button{
+            @include button();
+            &:hover{
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+            };
+         };
+    }
+
+};
+};
